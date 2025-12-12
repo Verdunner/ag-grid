@@ -1,42 +1,39 @@
-# .
+## Vue-events
 
-This template should help get you started developing with Vue 3 in Vite.
+### Скоростной обработчик дерева (класс-хранилище + таблица)
 
-## Recommended IDE Setup
+![preview.png](https://github.com/Verdunner/ag-grid/blob/main/public/preview.png)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+-   [Деплой проекта на Vercel](https://ag-grid-bice.vercel.app/)
 
-## Recommended Browser Setup
+---
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+### Команды для запуска проекта
 
-## Type Support for `.vue` Imports in TS
+1. `npm install` (Node v22.20.0, npm v10.9.3)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+2. `npm run dev` или `npm run build`, тесты через `npm run test`
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Стек технологий проекта:
 
-## Project Setup
+#### Основные зависимости:
 
-```sh
-npm install
-```
+-   Vue 3
 
-### Compile and Hot-Reload for Development
+-   ag-grid-community (библиотека таблиц AG Grid)
 
-```sh
-npm run dev
-```
+-   ag-grid-vue3 (интеграция AG Grid с Vue)
 
-### Type-Check, Compile and Minify for Production
+-   ag-grid-enterprise (TreeData, группировка)
 
-```sh
-npm run build
-```
+#### Dev зависимости:
+
+-   Vite
+
+-   TypeScript, @types-пакеты
+
+-   Vitest и @vue/test-utils (тесты)
+
+-   jsdom - (эмуляция DOM в тестах)
