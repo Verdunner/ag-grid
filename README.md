@@ -1,8 +1,8 @@
-## Vue-events
+## Ag-grid
 
 ### Скоростной обработчик дерева (класс-хранилище + таблица)
 
-![preview.png](https://github.com/Verdunner/ag-grid/blob/main/public/preview.png)
+![preview.png](https://github.com/Verdunner/ag-grid/blob/main/public/preview2.png)
 
 -   [Деплой проекта на Vercel](https://ag-grid-bice.vercel.app/)
 
@@ -36,4 +36,4 @@
 
 -   Vitest и @vue/test-utils (тесты)
 
--   jsdom - (эмуляция DOM в тестах)
+-   jsdom (эмуляция DOM в тестах)
